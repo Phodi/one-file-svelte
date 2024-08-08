@@ -13,10 +13,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "autoprefixer": "^10.4.20",
-    "daisyui": "^4.12.10",
-    "svelte": "^4.2.18",
-    "tailwindcss": "^3.4.8"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
@@ -31,6 +27,10 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-svelte": "^7.2.2",
     "rollup-plugin-svg": "^2.0.0",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.10",
+    "svelte": "^4.2.18",
+    "tailwindcss": "^3.4.8",
     "sirv-cli": "^2.0.2"
   }
 }
