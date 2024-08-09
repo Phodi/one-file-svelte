@@ -3,10 +3,14 @@
   import { onMount } from "svelte";
   import { initializeApp } from "./app_init";
 
+  import Router from "svelte-spa-router";
+  import routes from "./routes";
+
   onMount(() => {
     initializeApp();
   });
 </script>
 
-<p>Hello World!</p>
-<button class="btn">OK</button>
+<main>
+  <Router {routes} />
+</main>

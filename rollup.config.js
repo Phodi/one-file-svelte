@@ -75,6 +75,9 @@ module.exports = {
         svelte({
             include: 'src/**/*.svelte',
         }),
+        svelte({
+            include: 'node_modules/svelte-spa-router/**/*.svelte'
+        }),
         resolve({
             browser: true,
             dedupe: importee => importee === 'svelte' || importee.startsWith('svelte/'),
