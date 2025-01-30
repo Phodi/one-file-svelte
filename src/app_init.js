@@ -2,12 +2,12 @@ import branding from "../branding";
 import logo from "./logo.svg";
 
 // Extract the data URI from the logo
-const extractDataUri = (dataUri) => {
+const extract_svg_uri = (dataUri) => {
     const match = dataUri.match(/"(data:image\/svg\+xml[^"]*)"/);
     return match ? match[1] : "";
 };
 
-const favicon = extractDataUri(logo);
+const favicon = extract_svg_uri(logo);
 
 export const initializeApp = () => {
     // Set favicon
